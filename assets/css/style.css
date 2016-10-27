@@ -2021,7 +2021,7 @@ a#slide:hover {
 }
 
 a#slide:after {
-  content: "F";
+  content: "R";
 }
 
 a#slide.slide:after {

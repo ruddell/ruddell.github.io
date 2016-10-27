@@ -1,15 +1,15 @@
 default_author:
-  name:           Your Name
-  picture:        your-photo.jpg
-  email:          your@email.com
+  name:           Jon Ruddell
+  picture:        profile.jpg
+  email:          jonathan.ruddell@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Some Details about yourself
+  description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter: jonruddell
   facebook:
-  github:
+  github: ruddell
   linkedin:
-  instagram:
+  instagram: ruddelll
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
+#  google_plus:    "http://plus.google.com/123123123123132123"
