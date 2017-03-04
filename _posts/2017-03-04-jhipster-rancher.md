@@ -1,7 +1,7 @@
 ---
 layout: post
-title: JHipster and Rancher
-headline: "Microservices in Minutes"
+title: JHipster Meet Rancher
+headline: "JHipster Meet Rancher"
 categories: open-source
 tags: 
   - jhipster
@@ -13,13 +13,13 @@ featured: true
 published: true
 ---
 
-### JHipster and Rancher
-
 A common question in the JHipster chat room is "How to deploy to production?"  Developers run into issues dealing with Docker, networking, monitoring, and more, especially when trying to run on a cloud service.  JHipster helps out on several of those points (such as generated docker configurations), but choosing how and where to deploy to production is left up to the user.
 
 For those unfamiliar, [JHipster](https://jhipster.github.io/) is an application generator that creates a complete and modern Web app, unifying Spring Boot and Spring Cloud Netflix on the Java side, and Angular and Webpack on the front-end.  JHipster also handles all of the database creation, cache creation, comes Docker-ready, and more.
 
 [Rancher](http://rancher.com/) "is a complete, open source platform for deploying and managing containers in production."  It fits very well with JHipster, taking over in production where JHipster leaves off.  Rancher orchestrates Docker containers across hosts and helps handle scaling and health checks for containers.
+
+### Demo Overview
 
 This demo will go through the process of deploying a full JHipster microservices application to Amazon EC2. We'll keep it simple by using the pre-generated JHipster sample applications.  This means no coding is needed to see the JHipster microservices in action.
 
@@ -46,7 +46,7 @@ Make sure Rancher is running and you've logged in.  First, we need to define an 
 The next step to deploying is creating a Host (under the Infrastructure tab).  Rancher offers a variety of pre-configured options such as AWS EC2, Azure, Digital Ocean, and Packet.  Entering an API key for one of those accounts will allow Rancher to provision the servers and install Docker on them.  I've recently seen some questions regarding deploying JHipster microservices to AWS so I will use that for this demo.  If you aren't using AWS, choose a host and find your API key.  You can also add a host manually.
 
 <figure>
-	<a href="{{ site.url }}/images/ec2.png"><img src="{{ site.url }}/images/ec2.png"></a>
+	<a href="{{ site.url }}/images/rancher/ec2.png"><img src="{{ site.url }}/images/rancher/ec2.png"></a>
 	<figcaption>Rancher Host Creation Screen</figcaption>
 </figure>
 
@@ -54,24 +54,27 @@ The next step to deploying is creating a Host (under the Infrastructure tab).  R
 Fill out your AWS API Key and Secret, choose your region, network, select your VM sizes and count, and click deploy.  Along with installing Docker, Rancher also sets up the network management and runs a container scheduler for restarting failing containers.  It will take a few minutes for each host to get ready.
 
 <figure>
-	<a href="{{ site.url }}/images/hosts.png"><img src="{{ site.url }}/images/hosts.png"></a>
+	<a href="{{ site.url }}/images/rancher/hosts.png"><img src="{{ site.url }}/images/rancher/hosts.png"></a>
 	<figcaption>Rancher Hosts After Creation</figcaption>
 </figure>
+
 
 Deploying the services is simple.  Switch to the Stacks tab, choose Add Stack, and give it a name of your choice.  Copy the docker-compose.yml from [the linked gist](https://gist.github.com/ruddell/f79482e2f96c0fcb00b71619ad9929cc) and paste it into the docker-compose.yml field.  Click create, and wait a few minutes for the images to pull and deploy.
 
 <figure>
-	<a href="{{ site.url }}/images/stack.png"><img src="{{ site.url }}/images/stack.png"></a>
+	<a href="{{ site.url }}/images/rancher/rancher/stack.png"><img src="{{ site.url }}/images/rancher/stack.png"></a>
 	<figcaption>A Deployed JHipster Microservices Stack</figcaption>
 </figure>
+
 
 Congratulations, you've deployed JHipster microservices to the cloud without writing a single line of code! Once everything has started, you will be able to access it at port 8080 of the host running the `jhipstersamplegateway` container.  You can also access the JHipster registry at port 8761 of the host running the `jhipster-registry` container.  You can see the host's IP addresses on the Host tab.
 
 
 <figure>
-	<a href="{{ site.url }}/images/deployed.png"><img src="{{ site.url }}/images/deployed.png"></a>
+	<a href="{{ site.url }}/images/rancher/deployed.png"><img src="{{ site.url }}/images/rancher/deployed.png"></a>
 	<figcaption>Up and Running!</figcaption>
 </figure>
+
 
 ### Other Rancher Benefits
  - Load balancer - Access your apps at port 80 and balance requests among several containers
