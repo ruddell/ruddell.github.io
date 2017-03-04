@@ -87,5 +87,6 @@ Congratulations, you've deployed JHipster microservices to the cloud without wri
  - Scaling - Rancher allows for easy scaling of containers.  You can also set rules to run a container on each host, or a keep a certain number of containers running.
  - Health Checks - Rancher will automatically replace failing containers if you set up the health check
  - Rolling Upgrades - Upgrade containers with 0 downtime through a rolling upgrade
+ - Kubernetes support - Rancher also supports Kubernetets deployments, though I haven't tried it out
 
  As you can see, Rancher helps deploying apps to any environment.  It keeps things simple and lets the developer focus less on the fine details of Docker and more on a stable deployment.  In the upcoming weeks, there will be a special `yo jhipster:rancher-compose` generator that will handle even more of the configuration for the developer, including loadbalancers ([Link to PR](https://github.com/jhipster/generator-jhipster/pull/5159)).  Stay tuned!
