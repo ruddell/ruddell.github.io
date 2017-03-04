@@ -51,12 +51,14 @@ The next step to deploying is creating a Host (under the Infrastructure tab).  R
 </figure>
 
 
+
 Fill out your AWS API Key and Secret, choose your region, network, select your VM sizes and count, and click deploy.  Along with installing Docker, Rancher also sets up the network management and runs a container scheduler for restarting failing containers.  It will take a few minutes for each host to get ready.
 
 <figure>
 	<a href="{{ site.url }}/images/rancher/hosts.png"><img src="{{ site.url }}/images/rancher/hosts.png"></a>
 	<figcaption>Rancher Hosts After Creation</figcaption>
 </figure>
+
 
 
 Deploying the services is simple.  Switch to the Stacks tab, choose Add Stack, and give it a name of your choice.  Copy the docker-compose.yml from [the linked gist](https://gist.github.com/ruddell/f79482e2f96c0fcb00b71619ad9929cc) and paste it into the docker-compose.yml field.  Click create, and wait a few minutes for the images to pull and deploy.
@@ -67,6 +69,7 @@ Deploying the services is simple.  Switch to the Stacks tab, choose Add Stack, a
 </figure>
 
 
+
 Congratulations, you've deployed JHipster microservices to the cloud without writing a single line of code! Once everything has started, you will be able to access it at port 8080 of the host running the `jhipstersamplegateway` container.  You can also access the JHipster registry at port 8761 of the host running the `jhipster-registry` container.  You can see the host's IP addresses on the Host tab.
 
 
@@ -74,6 +77,7 @@ Congratulations, you've deployed JHipster microservices to the cloud without wri
 	<a href="{{ site.url }}/images/rancher/deployed.png"><img src="{{ site.url }}/images/rancher/deployed.png"></a>
 	<figcaption>Up and Running!</figcaption>
 </figure>
+
 
 
 ### Other Rancher Benefits
