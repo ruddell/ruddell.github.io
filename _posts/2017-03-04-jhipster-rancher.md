@@ -62,7 +62,7 @@ Fill out your AWS API Key and Secret, choose your region, network, select your V
 Deploying the services is simple.  Switch to the Stacks tab, choose Add Stack, and give it a name of your choice.  Copy the docker-compose.yml from [the linked gist](https://gist.github.com/ruddell/f79482e2f96c0fcb00b71619ad9929cc) and paste it into the docker-compose.yml field.  Click create, and wait a few minutes for the images to pull and deploy.
 
 <figure>
-	<a href="{{ site.url }}/images/rancher/rancher/stack.png"><img src="{{ site.url }}/images/rancher/stack.png"></a>
+	<a href="{{ site.url }}/images/rancher/stack.png"><img src="{{ site.url }}/images/rancher/stack.png"></a>
 	<figcaption>A Deployed JHipster Microservices Stack</figcaption>
 </figure>
 
