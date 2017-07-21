@@ -614,6 +614,7 @@ html {
 
 .post-body img {
   max-width: 100%;
+  max-height: 400px;
   margin-bottom: 24px;
 }
 

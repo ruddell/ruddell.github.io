@@ -24,7 +24,7 @@ Ignite CLI is a generator for React Native with boilerplates, plugins, and more.
 
 ### Demo Overview
 
-**Note**: This boilerplate is still in beta until the entity generator is complete - please use with caution and provide feedback.
+**Note: This boilerplate is still in beta until the entity generator is complete - please use with caution and provide feedback.**
 
 This demo will cover the process of using **Ignite JHipster** from top-to-bottom.  This includes the following sections:
 
@@ -46,17 +46,13 @@ Full instructions for installing JHipster can be found in [the JHipster docs](ht
 
 Ignite requires NodeJS v7+
 
-```
-npm install -g ignite-cli
-```
+`npm install -g ignite-cli`
 
 #### React Native Setup
 
 React Native requires Watchman to be installed.  Follow their [installation guide](https://facebook.github.io/watchman/docs/install.html) for full instructions.  It also requires the react-native-cli, installed with:
 
-```
-npm install -g react-native-cli
-```
+`npm install -g react-native-cli`
 
 Depending on which OS you are using, you will need to set up an emulator.  The iOS Simulator is included in Xcode, only available on macOS.  The Android simulator works alongside [Android Studio](https://developer.android.com/studio/run/managing-avds.html) or [Genymotion](https://www.genymotion.com/).
 
@@ -69,7 +65,7 @@ To keep this demo simple, we will be using one of the sample generated apps, [jh
 After cloning the project, run `yarn install` or `npm install`, then `./mvnw` to start the Spring Boot backend.  It will be available at [http://localhost:8080](http://localhost:8080).
 
 <figure>
-	<a href="{{ site.url }}/images/ignite-jhipster/jhipster-backend.jpg"><img src="{{ site.url }}/images/ignite-jhipster/jhipster-backend.jpg"></a>
+	<a href="{{ site.url }}/images/ignite-jhipster/jhipster-backend.jpg"><img style="max-width: 85%" src="{{ site.url }}/images/ignite-jhipster/jhipster-backend.jpg"></a>
 	<figcaption>JHipster app running on port 8080</figcaption>
 </figure>
 
@@ -79,22 +75,19 @@ Once the JHipster app is running, we can start work on the React Native frontend
 
 To generate a new Ignite app using the Ignite JHipster boilerplate, run the following command:
 
-```
-ignite new IgniteJHipsterSampleApp --boilerplate ignite-jhipster
-```
+`ignite new IgniteJHipsterSampleApp --boilerplate ignite-jhipster`
 
 This will fetch the latest version of the boilerplate from NPM and generate the application from that code.
 
 To start the emulator and run the app on the emulator, run either of the following commands.
 
-iOS:
-```
-react-native run-ios
-```
-Android:
-```
-react-native run-android
-```
+**iOS:**
+
+`react-native run-ios`
+
+**Android:**
+
+`react-native run-android`
 
 <figure>
 	<a href="{{ site.url }}/images/ignite-jhipster/app-home.png"><img src="{{ site.url }}/images/ignite-jhipster/app-home.png"></a>
@@ -135,9 +128,7 @@ Once configured, the application should connect to the JHipster backend and all 
 
 Similar to the regular JHipster generator, Ignite JHipster offers an entity generator to quickly scaffold the required React Native code.  The entity must exist in the JHipster app before it can be generated in the React Native app.  For this demo, we will use the pre-existing `BankAccount` entity from the sample app.
 
-```
-ignite generate entity BankAccount
-```
+`ignite generate entity BankAccount`
 
 Running that command will prompt the developer to enter the path to their JHipster directory.  Once entered, Ignite JHipster copies the entity config file and generates the redux, saga, API, and UI code for retreiving and viewing entities with the app.  It also wires these files together so the requests work out-of-the-box.
 
