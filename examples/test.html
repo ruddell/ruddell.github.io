@@ -1,0 +1,24 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.js"></script>
+<script type="text/javascript">
+var Http = axios.create({
+  baseURL: 'http://localhost:8080/api',
+});
+
+Http.interceptors.request.use(function (config) {
+  config.xsrfCookieName = 'CSRF-TOKEN';
+  config.xsrfHeaderName = 'X-CSRF-TOKEN';
+  config.withCredentials = true;
+  return config;
+});
+
+var credentials = {
+  username: 'user',
+  password: 'user',
+  rememberMe: true
+};
+
+Http.post('authentication', 'j_username=' + credentials.username +
+'&j_password=' + credentials.password +
+'&remember-me=' + credentials.rememberMe +
+'&submit=Login');
+</script>
