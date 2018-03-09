@@ -1,6 +1,5 @@
-title:            Ruddell
-description:      Collection of posts and coding tips
-logo:             omikron.png
+title:            Ruddell's Blog
+description:      Collection of Posts and Coding Tips
 disqus_shortname: ruddell
 # Assign a default image for your site's header and footer
 default_bg:       landing.jpg
@@ -51,7 +50,7 @@ author:
   twitter: jonruddell
   facebook:
   github: ruddell
-  linkedin:
+  linkedin: https://www.linkedin.com/in/jon-ruddell-97ba1363/
   instagram:
   tumblr:
 #   For Google Authorship https://plus.google.com/authorship

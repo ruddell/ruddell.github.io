@@ -524,7 +524,7 @@ html {
   display: table;
   text-align: center;
   width: 100%;
-  height: 60%;
+  /* height: 60%; */
   padding: 24px 0;
   margin-bottom: 72px;
   box-sizing: border-box;
@@ -544,6 +544,7 @@ html {
 /* - Blog title and description - */
 .blog-title {
   font-size: 36px;
+  font-weight: bold !important;
   line-height: 36px;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -678,10 +679,10 @@ html {
 /* ------ */
 #footer {
   margin-top: 72px;
-  padding: 124px 0 72px;
+  padding: 36px 0 0;
   position: relative;
   width: 100%;
-  height: 60%;
+  /* height: 60%; */
   display: table;
   z-index: 1;
 }
@@ -2005,7 +2006,7 @@ body {
 a#slide {
   position: fixed;
   display: block;
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   top: 10px;
   left: 10px;
@@ -2022,7 +2023,7 @@ a#slide:hover {
 }
 
 a#slide:after {
-  content: "R";
+  content: "\2630";
 }
 
 a#slide.slide:after {
