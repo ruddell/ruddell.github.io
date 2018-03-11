@@ -1257,7 +1257,7 @@ figure a img {
 
 figure a img:hover {
   filter: none;
-  -webkit-filter: brightness(130%);
+  -webkit-filter: brightness(105%);
   -webkit-transform: translate(0,-5px);
   -moz-transform: translate(0,-5px);
   -ms-transform: translate(0,-5px);
@@ -1936,6 +1936,10 @@ pre {
   page-break-inside: avoid;
 }
 
+pre > code > a, a:hover {
+  color: #e6e6e6
+}
+
 /* menu button */
 
 button.menu-button {
@@ -2028,7 +2032,7 @@ a#slide:after {
 
 a#slide.slide:after {
   position: absolute;
-  content: "X";
+  content: "\2715";
   top: 11px;
   left: 50%;
   width: 40px;
