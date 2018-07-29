@@ -98,7 +98,7 @@ a:hover {
 }
 /* - Lead text - */
 .lead {
-  font-size: 21px;
+  font-size: 17px;
   line-height: 2em;
 }
 /* - Blockquote - */
@@ -118,10 +118,11 @@ blockquote:before {
 }
 
 .cursive {
-  font-family: 'Sacramento', cursive;
+  font-family: cursive;
   color: #336235;
   font-size: 34px;
   text-align: center;
+  font-weight: bolder;
 }
 /* - Form elements - */
 select,
@@ -266,10 +267,10 @@ pre {
 }
 
 .super {
-  font-size: 60px;
-  font-weight: bold;
+  font-size: 45px;
+  /* font-weight: bold; */
   line-height: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .super.text-center small {
@@ -278,8 +279,8 @@ pre {
 }
 
 .hyper {
-  font-size: 72px;
-  font-weight: bold;
+  font-size: 45px;
+  /* font-weight: bold; */
   text-align: center;
   line-height: 1;
 }
@@ -478,7 +479,7 @@ blockquote:before {
 }
 
 .overlay:after {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #masthead {
@@ -1976,7 +1977,7 @@ button.menu-button {
 }
 
 button.menu-button:hover {
-  background-color: #39c492;
+  background-color: #888686;
   color: #fff;
   box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
 }
@@ -2023,7 +2024,7 @@ a#slide {
 }
 
 a#slide:hover {
-  background: #39c492;
+  background: #888686;
 }
 
 a#slide:after {

@@ -30,7 +30,7 @@
                             Last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified"> {{ page.modified | date: "%d %b %Y" }} </time>
                         {% endif %}
 
-                        {% if site.readtime %}
+                        {% if site.readtime and page.readtime %}
                             &nbsp; <span class="post-tags"> <i class="fa fa-clock-o"></i> &nbsp; 
                             {% if readtime > 1 and readtime < 1.5 %}
                                 1 minute read

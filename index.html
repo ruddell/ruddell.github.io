@@ -21,7 +21,7 @@ tags: [tags]
 <div class="row">
 	<article class="post col-md-10 col-md-offset-1">
 		<header class="post-header">
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}"><i class="fa fa-quote-left"></i> {{ post.excerpt | strip_html }}</a>
 	        </h2>
 	        <p class="light small text-center">
@@ -67,7 +67,7 @@ tags: [tags]
 <div class="row">
 	<article class="post col-md-10 col-md-offset-1">
 		<header class="post-header">
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="fa fa-retweet"></i> "{{ post.excerpt | strip_html }}"</a>
 			</h2>
 			<p class="light small text-center">
@@ -130,12 +130,12 @@ tags: [tags]
 	<article class="post post col-md-8 col-md-offset-2">
 		<header class="post-header">
 			{% if post.link %}
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
 					<i class="fa fa-play-circle"></i> {{ post.title }}
 				</a>
 			{% else %}
-				<h2 class="post-title text-center super lighter bordered-bottom">
+				<h2 class="post-title text-center super bordered-bottom">
 					<a href="{{ site.url }}{{ post.url }}"><i class="fa fa-play-circle"></i> {{ post.title }}</a>
 			{% endif %}
 			</h2>
@@ -224,12 +224,12 @@ tags: [tags]
 			{% endif %}
 			
 			{% if post.link %}
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
 					<i class="fa fa-picture-o"></i> {{ post.title }}
 				</a>
 			{% else %}
-			<h2 class="post-title text-center super lighter bordered-bottom">
+			<h2 class="post-title text-center super bordered-bottom">
 				<a href="{{ site.url }}{{ post.url }}">
 					<i class="fa fa-picture-o"></i> {{ post.title }}
 					</a>
@@ -297,16 +297,16 @@ tags: [tags]
 	<article class="post post col-md-8 col-md-offset-2">
 		<header class="post-header">
 		{% if post.featured %}
-			<div class="cursive">this post is featured</div>
+			<div class="cursive">Featured Post</div>
 		{% endif %}
 		
 		{% if post.link %}
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
 					<i class="fa fa-link"></i> {{ post.title }}
 				</a>
 		{% else %}
-				<h2 class="post-title text-center super lighter bordered-bottom">
+				<h2 class="post-title text-center super bordered-bottom">
 					<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> 
 		{% endif %}
 			</h2>
@@ -405,7 +405,7 @@ tags: [tags]
 <div class="row">
 	<article class="post col-md-10 col-md-offset-1">
 		<header class="post-header">
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}"><i class="fa fa-quote-left"></i> {{ post.excerpt | strip_html }}</a>
 			</h2>
 			<p class="light small text-center">
@@ -452,7 +452,7 @@ tags: [tags]
 <div class="row">
 	<article class="post col-md-10 col-md-offset-1">
 		<header class="post-header">
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="fa fa-retweet"></i> "{{ post.excerpt | strip_html }}"</a>
 			</h2>
 			<p class="light small text-center">
@@ -511,10 +511,10 @@ tags: [tags]
 	<article class="post post col-md-8 col-md-offset-2">
 		<header class="post-header">
 		{% if post.link %}
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="fa fa-play-circle"></i> {{ post.title }}</a>
 		{% else %}
-			<h2 class="post-title text-center super lighter bordered-bottom">
+			<h2 class="post-title text-center super bordered-bottom">
 				<a href="{{ site.url }}{{ post.url }}"><i class="fa fa-play-circle"></i> {{ post.title }}</a>
 		{% endif %}
 			</h2>
@@ -596,12 +596,12 @@ tags: [tags]
 		{% endif %}
 		
 		{% if post.link %}
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
 					<i class="fa fa-picture-o"></i> {{ post.title }}
 				</a>
 		{% else %}
-			<h2 class="post-title text-center super lighter bordered-bottom">
+			<h2 class="post-title text-center super bordered-bottom">
 				<a href="{{ site.url }}{{ post.url }}">
 					<i class="fa fa-picture-o"></i> {{ post.title }}
 				</a>
@@ -666,16 +666,16 @@ tags: [tags]
 	<article class="post post col-md-8 col-md-offset-2">
 		<header class="post-header">
 		{% if post.featured %}
-			<div class="cursive">this post is featured</div>
+			<div class="cursive">Featured Post</div>
 		{% endif %}
 		
 		{% if post.link %}
-			<h2 class="post-title text-center super lighter">
+			<h2 class="post-title text-center super">
 				<a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
 					<i class="fa fa-link"></i> {{ post.title }}
 				</a>
 		{% else %}
-			<h2 class="post-title text-center super lighter bordered-bottom">
+			<h2 class="post-title text-center super bordered-bottom">
 				<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> {% endif %}
 			</h2>
 
