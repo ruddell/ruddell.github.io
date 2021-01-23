@@ -9,4 +9,4 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
  end
  
-+gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-compose', group: [:jekyll_plugins]
