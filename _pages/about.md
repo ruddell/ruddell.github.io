@@ -6,9 +6,11 @@ tags: [tags]
 ---
 
 
-My name is Jon Ruddell, my current job is Cofounder/CTO at [SportsBooth][], a startup specializing in real-time video commentary for sports events.  I also occasionally do independent consulting on the side.
+My name is Jon Ruddell and I am an open-source developer who specializes in WebRTC[] development and the [JHipster][] developer platform.  I also consult independently on the side.
 
-I love diving into new technologies and platforms and figuring out how to use them to to meet my needs.  I mainly specialize in [WebRTC][] developement and the [JHipster][] developer platform, and have experience in a variety of languages including Java (Spring and Spring Boot), Javascript (Angular, React, React Native, and Node), C, and C++.
+I previously built an ultra-low-latency video platform capable of delivering WebRTC streams from a single source to hundreds of thousands of viewers, with a main focus on sports events and commentary.
+
+I love diving into new technologies and platforms and figuring out how to use them to to meet my needs.  I have experience in a variety of topics including backend (Spring Boot, Java, NodeJS, Python), frontend (JavaScript, Angular, React, React Native, TypeScript, Vue, HTML/CSS), databases (SQL), cloud deployment (AWS, Azure, Google Cloud, Digital Ocean), and more.
 
 Feel free to reach out to me if you want to open a dialogue or collaborate.  You can find me on Twitter at [@jonruddell][] and Github at [@ruddell][]
 

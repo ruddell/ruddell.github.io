@@ -3,14 +3,14 @@ layout: post
 title: Selenium + Nightwatch
 headline: "Automated E2E Testing"
 categories: open-source
-tags: 
+tags:
   - testing
   - selenium
   - e2e
   - nightwatch
 comments: true
 mathjax: null
-featured: true
+featured: false
 published: true
 ---
 
