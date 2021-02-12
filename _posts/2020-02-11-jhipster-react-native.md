@@ -66,7 +66,7 @@ The API URL is configured in `app/config/app-config.js`.  When deploying the app
 
 For this demo, set the `apiUrl` to `https://jh-sample-app-react-native-api.herokuapp.com/`.
 
-**Tip**: If you are using OAuth 2.0 for the authentication type, [see the docs for a guide to Okta and Keycloak configuration.](https://github.com/ruddell/ignite-jhipster/blob/main/docs/oauth2-oidc.md)
+**Tip**: If you are using OAuth 2.0 for the authentication type, [see the docs for a guide to Okta and Keycloak configuration.](https://github.com/ruddell/generator-jhipster-react-native/blob/main/docs/oauth2-oidc.md)
 
 ## Running the App <a name="running-the-app"></a>
 
