@@ -18,10 +18,7 @@ published: true
 
 In this demo, we will generate a React Native application. Next, we will launch the React Native app locally on iOS, Android, and Web. To finish up, we will build and deploy the applications, and demonstrate over-the-air updates.
 
-
-
-Generate the React Native Client
-
+[This blog post is also available in a short 6-minute video format.](https://www.youtube.com/watch?v=zQMg1E7meHw)
 
 1. [Environment Setup](#environment-setup)
 2. [Generating the React Native Client](#generating-the-react-native-client)
@@ -135,5 +132,7 @@ Web updates are not currently supported, so you will still need to deploy those 
 For information on OTA Updates, see the Expo docs on [Configuring OTA Updates](https://docs.expo.io/guides/configuring-ota-updates/).
 
 ## Summary
+
+In this post, we demonstrated how to generate the app, make changes, configure a backend, build native/web apps, release over-the-air updates, and run E2E tests.
 
 Any questions, comments, improvements, issues, and pull requests are welcome over at the [JHipster React Native Github page](https://github.com/ruddell/generator-jhipster-react-native/).
