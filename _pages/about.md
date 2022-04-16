@@ -5,18 +5,11 @@ title: About Me
 tags: [tags]
 ---
 
+Currently working at Vimeo as a Principal Engineer. Keeping up to date with WebRTC and occasionally updating my open-source projects (especially the React Native blueprint for JHipster)
 
-My name is Jon Ruddell, and I am a a software engineer who specializes in [WebRTC][] development and the [JHipster][] developer platform.  I also consult independently on the side.
-
-I previously built an ultra-low-latency video platform capable of delivering WebRTC streams from a single source to hundreds of thousands of viewers, with a main focus on sports events and commentary.
-
-I love diving into new technologies and platforms and figuring out how to use them to to meet my needs.  I have experience in a variety of topics including backend (Spring Boot, Java, NodeJS, Python), frontend (JavaScript, Angular, React, React Native, TypeScript, Vue, HTML/CSS), databases (SQL), cloud deployment (AWS, Azure, Google Cloud, Digital Ocean), and more.
+I previously worked on SportsBooth, a startup building an ultra-low-latency video platform capable of delivering WebRTC streams from a single source to hundreds of thousands of viewers, with a main focus on sports events and commentary.
 
 Feel free to reach out to me if you want to open a dialogue or collaborate.  You can find me on Twitter at [@jonruddell][] and Github at [@ruddell][]
 
-[WebRTC]: https://webrtc.org/
-[SportsBooth]: https://sportsbooth.tv
-[WebRTC]: https://webrtc.org
-[JHipster]: https://jhipster.tech
 [@jonruddell]: https://twitter.com/jonruddell
 [@ruddell]: https://github.com/ruddell
